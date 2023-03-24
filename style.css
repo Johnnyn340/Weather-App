@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-image: url("/img/background.jfif");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+input {
+  background-color: black;
+  opacity: 0.5;
+  height: 50px;
+  width: 300px;
+  border-radius: 0.3rem;
+  padding-left: 10px;
+  font-size: 30px;
+}
+
+header {
+  display: flex;
+  justify-content: end;
+  padding: 50px;
+}
+
+.weather-display {
+  padding-left: 100px;
+  padding-top: 100px;
+}
+
+.condition {
+  font-size: 50px;
+  margin-bottom: -15px;
+}
+
+.place {
+  font-size: 80px;
+}
+
+.degree {
+  font-size: 130px;
+}
+
+.degree::after {
+  content: "°F";
+}
