@@ -19,11 +19,20 @@
         <div class="search">
           <input type="text" placeholder="Enter City" />
         </div>
+        <div class="error"><p>Please enter a city</p></div>
       </header>
       <div class="weather-display">
-        <p class="condition">Cloudy</p>
-        <h1 class="place">Saigon</h1>
-        <h1 class="degree">50</h1>
+        <div class="weather-left">
+          <p class="condition">Cloudy</p>
+          <h1 class="place">Saigon</h1>
+          <h1 class="degree">50</h1>
+        </div>
+        <div id="bar">｜</div>
+        <div class="weather-right">
+          <p class="wind">5mph</p>
+          <p class="humidity">10</p>
+          <p class="feels-like">50</p>
+        </div>
       </div>
     </div>
     <script src="main.js"></script>
